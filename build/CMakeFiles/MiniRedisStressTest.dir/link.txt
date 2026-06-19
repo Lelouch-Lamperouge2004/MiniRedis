@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\MiniRedisStressTest.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\MiniRedisStressTest.dir/objects.a CMakeFiles/MiniRedisStressTest.dir/tests/stress_test.cpp.obj
+C:\msys64\ucrt64\bin\c++.exe -Wl,--whole-archive CMakeFiles\MiniRedisStressTest.dir/objects.a -Wl,--no-whole-archive -o MiniRedisStressTest.exe -Wl,--out-implib,libMiniRedisStressTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lws2_32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

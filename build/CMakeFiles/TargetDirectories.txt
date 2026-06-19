@@ -1,0 +1,6 @@
+D:/MiniRedis/build/CMakeFiles/MiniRedis.dir
+D:/MiniRedis/build/CMakeFiles/MiniRedisTests.dir
+D:/MiniRedis/build/CMakeFiles/MiniRedisStressTest.dir
+D:/MiniRedis/build/CMakeFiles/test.dir
+D:/MiniRedis/build/CMakeFiles/edit_cache.dir
+D:/MiniRedis/build/CMakeFiles/rebuild_cache.dir
