@@ -1,19 +1,21 @@
 name: Build
 
 on:
-  push:
-  pull_request:
+push:
+pull_request:
 
 jobs:
-  build:
-    runs-on: windows-latest
+build:
+runs-on: windows-latest
 
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+```
+steps:
+  - name: Checkout Repository
+    uses: actions/checkout@v4
 
-      - name: Configure CMake
-        run: cmake -B build -G "MinGW Makefiles"
+  - name: Configure CMake
+    run: cmake -B build
 
-      - name: Build Project
-        run: cmake --build build
+  - name: Build Project
+    run: cmake --build build --config Release
+```
