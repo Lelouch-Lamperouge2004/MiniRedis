@@ -1,0 +1,11 @@
+build/
+.vscode/
+*.exe
+*.obj
+*.o
+*.dll
+*.log
+*.dat
+CMakeCache.txt
+CMakeFiles/
+Testing/
